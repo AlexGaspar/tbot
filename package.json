@@ -1,0 +1,19 @@
+{
+    "name": "twitch-stream-lurker",
+    "version": "1.3.1",
+    "description": "Logs in to a twitch account and lurks any channel permanently.",
+    "homepage": "https://github.com/elbojoloco/twitch-stream-lurker",
+    "bugs": "https://github.com/elbojoloco/twitch-stream-lurker/issues",
+    "repository": "https://github.com/elbojoloco/twitch-stream-lurker",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Alex G",
+    "license": "MIT",
+    "dependencies": {
+        "node": ">=7.6.0",
+        "proxy-chain": "^0.4.4",
+        "puppeteer": "^1.20.0"
+    }
+}
