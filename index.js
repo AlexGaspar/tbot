@@ -271,9 +271,9 @@ fs.readdir(USERS_DIR, (err, files) => {
         user_settings: require('./' + USERS_DIR + '/' + files[i]),
         channel: CHANNEL_TO_WATCH,
         should_follow: true,
-        should_say_hello: false,
+        should_say_hello: true,
         emoji_only: true,
-        should_talk: true,
+        should_talk: false,
       });
 
       await bot.run();
